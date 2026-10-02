@@ -1,0 +1,17 @@
+name: NationalDay
+version: '${project.version}'
+main: com.xiaomian124.nationalday.NationalDay
+api-version: '26.2'
+description: 国庆节主题插件，一个国庆主题的旗帜。
+
+commands:
+  nationalday:
+    description: NationalDay 插件主命令
+    usage: /nationalday reload
+    permission: nationalday.reload
+    permission-message: §c你没有权限使用此命令
+
+permissions:
+  nationalday.reload:
+    description: 允许重载 NationalDay 配置
+    default: op
